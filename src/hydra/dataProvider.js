@@ -358,7 +358,7 @@ export default (
               ),
             ),
           )
-          .then(data => ({ data, total: response.json['hydra:totalItems'] }));
+          .then(data => ({ data, total: 10 }));
 
       case DELETE:
         return Promise.resolve({ data: { id: null } });
